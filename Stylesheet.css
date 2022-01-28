@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Special+Elite&display=swap');
+ 
+body{
+  background-image: url(Images/bg.jpeg);
+  background-size: cover;
+} 
+
+ header{
+    margin-bottom: -100px;
+   
+ }
+ 
+  /* Style the top navigation bar */
+  .navbar {
+      margin-top:5px;
+    margin-left: 500px;
+    padding: 20px 5px;
+    margin-bottom: -10px;
+  }
+
+/* Style the navigation bar links */
+  .navbar a {
+margin-left: 1px;
+font-family: 'Roboto Condensed', sans-serif;
+text-decoration: none;
+text-align: center;
+transition: .3s ease-in-out;
+margin-bottom: -45px;
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Special Elite', cursive*/
+  }
+/* Change color on hover */
+  .navbar a:hover {
+      background-color: rgb(189, 8, 8);
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+   /*logo*/
+   .logo {
+    margin-top: -30px;
+    margin-left: -10px;
+    background-color: none;
+    margin-bottom: -30px;
+    padding: 5px 5px;
+    /*width: 50px;
+    height: 25px;*/
+
+}
+
+.logo:hover {
+    cursor: pointer;
+    opacity: .85;
+}
+
+.quote-box{
+    /*background-image: url(Images/bg.jpeg);
+    background-image: linear-gradient(black,red);
+    background-color: rgb(167, 4, 4);*/
+    text-align: left;
+    padding: 75px 75px;
+    margin-top: 300px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Special Elite', cursive;
+}
+
+footer{
+  background-color: white;
+}
+
+
